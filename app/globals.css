@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{--font-manrope:'Manrope';--font-cormorant:'Cormorant Garamond';color-scheme:light}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#f8f4ee;color:#102a2a;font-family:'Manrope',sans-serif}button,input,select,textarea{font:inherit}::selection{background:#e7b7b2;color:#102a2a}
+@layer components{.panel{@apply rounded-[24px] border border-black/[0.06] bg-white shadow-card}.touch{@apply inline-flex min-h-12 items-center justify-center gap-2 rounded-2xl px-4 font-semibold transition active:scale-[.98]}.eyebrow{@apply text-[11px] font-bold uppercase tracking-[.18em] text-teal/70}}
